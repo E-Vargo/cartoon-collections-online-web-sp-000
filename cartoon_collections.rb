@@ -22,4 +22,5 @@ def find_the_cheese(snackz)
     return (snackz.collect {|i| i.include(cheeze_types[0] || cheeze_types[1] || cheeze_types[2])}).join(" ")
   else
     return nil
+  end
 end
