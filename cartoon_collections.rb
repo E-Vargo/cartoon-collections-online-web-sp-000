@@ -1,4 +1,5 @@
-def roll_call_dwarves# code an argument here
+dwarf_array = ["Doc", "Dopey", "Bashful", "Grumpy"]
+def roll_call_dwarves(dwarf_array)# code an argument here
   # Your code here
 end
 
