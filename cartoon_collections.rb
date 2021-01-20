@@ -18,6 +18,6 @@ end
 
 def find_the_cheese(snackz)
   cheese_types = ["cheddar", "gouda", "camembert"]
-   snackz.find {|i| i = (cheese_types[0] || cheese_types[1] || cheese_types[2])}
+   snackz.find {|i| i == (cheese_types[0] || cheese_types[1] || cheese_types[2])}
 
 end
