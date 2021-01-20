@@ -8,7 +8,7 @@ def summon_captain_planet(planeteer_calls)
 end
 word_array = ["blue", "shoe", "frostbite", "industrious"]
 def long_planeteer_calls(word_array)
-
+ if word_array.collect {|word| word.match(/\w{4,}/i)}
 end
 
 def find_the_cheese
