@@ -18,7 +18,7 @@ end
 
 def find_the_cheese(snackz)
   cheese_types = ["cheddar", "gouda", "camembert"]
-   if snackz.find(cheese_types[0] || cheese_types[1] || cheese_types[2])
+   if snackz.find {|i| i = (cheese_types[0] || cheese_types[1] || cheese_types[2])}
      return snackz.find(cheese_types[0] || cheese_types[1] || cheese_types[2])
    else
      return nil
