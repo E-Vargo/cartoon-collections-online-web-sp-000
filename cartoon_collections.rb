@@ -10,8 +10,8 @@ word_array = ["blue", "shoe", "frostbite", "industrious"]
 def long_planeteer_calls(word_array)
   if word_array.each{|word| word.match(/\w{4}/)}
     return true
-  else
-    return false
+  elsif word_array.collect{|word| word.match(/\w{4}/)}
+    retu
   end
 end
 
