@@ -9,6 +9,9 @@ end
 word_array = ["blue", "shoe", "frostbite", "industrious"]
 def long_planeteer_calls(word_array)
  if word_array.collect {|word| word.match(/\w{4,}/i)}
+ return true
+ else
+   return false
 end
 
 def find_the_cheese
