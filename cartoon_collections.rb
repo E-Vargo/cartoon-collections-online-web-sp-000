@@ -6,7 +6,7 @@ planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect {|call| "#{call.capitalize}!"}
 end
-word_array = ["blue", "shoe", "frostbite", "industrious"]
+
 def long_planeteer_calls(word_array)
  if word_array.each {|i| i.match(/\w{4,}/i)}
    return true
