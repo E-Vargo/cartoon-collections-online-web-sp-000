@@ -9,7 +9,7 @@ end
 word_array = ["blue", "shoe", "frostbite", "industrious"]
 def long_planeteer_calls(word_array)
  if word_array.include?(/\w{4,}/i)
- return true
+   return true
  else
    return false
  end
