@@ -18,7 +18,7 @@ end
 
 def find_the_cheese(snackz)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if snackz.collect {|i| i.include(cheeze_types[0] || cheeze_types[1] || cheeze_types[2])}
+  if snackz.collect {|i| i.include(cheese_types[0] || cheese_types[1] || cheese_types[2])}
     return (snackz.collect {|i| i.include(cheeze_types[0] || cheeze_types[1] || cheeze_types[2])}).join(" ")
   else
     return nil
