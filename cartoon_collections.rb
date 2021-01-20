@@ -9,7 +9,7 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(word_array)
- if word_array.find {|i| i.match(/\w{4,}/i)}
+ if word_array.find {|i| i.match(/\w{5,}/i)}
    return true
  else
    return false
