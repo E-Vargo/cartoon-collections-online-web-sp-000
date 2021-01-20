@@ -11,7 +11,9 @@ def long_planeteer_calls(word_array)
   if word_array.each{|word| word.match(/\w{4}/)}
     return true
   elsif word_array.collect{|word| word.match(/\w{4}/)}
-    retu
+    return true
+  else
+    return false
   end
 end
 
