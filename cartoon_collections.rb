@@ -1,6 +1,6 @@
 dwarf_array = ["Doc", "Dopey", "Bashful", "Grumpy"]
-def roll_call_dwarves(dwarf_array)# code an argument here
-  # Your code here
+def roll_call_dwarves(dwarf_array)
+  dwarf_array.each {|dwarf| puts "#{dwarf}"}
 end
 
 def summon_captain_planet# code an argument here
